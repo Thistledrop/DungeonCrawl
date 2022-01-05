@@ -1,0 +1,15 @@
+COMING SOON!
+
+-Key/Door System
+-Reward exploration
+-Balance enemies/health
+-Percentile random dungeon generation
+-Add Ascii/Animation
+-Better map printing (2d array of char)
+-one character entry
+-Leaderboard
+-Better Text (indicate advantage) and spacing
+
+-Balancing
+-Delayed text appearance
+-More user choice

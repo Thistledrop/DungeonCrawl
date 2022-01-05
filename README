@@ -1,0 +1,49 @@
+Room Full of Traps
+
+Goals
+
+Explore random number generation in C++
+Successfully implement user created functions
+Use multiple files in a single coding project
+Show use of extern
+Explore the use of the enum type
+Generate a more complex c++ program
+Logically use a static variable. 
+Have fun
+
+Assignment Description:
+
+Create a two dimensional array to represent a dungeon room. Each array element is a tile 
+in the room. Populate the two dimensional array with random numbers to represent what's
+there. Use an enum to make this more readable. Make sure your [0][0] tile is not a trap as 
+it will be your entrance. [MAX][MAX] represents your exit. Decide if you want to give your 
+hero hit points and have every trap damage them or if a trip just kills them. If you want 
+to have more fun, make traps of different severities based on different conditions. 
+
+Create an enum for at least POTION, TRAP, ENTRANCE, EXIT. (Both map.cpp, and main will 
+need access to this enum type.)
+
+Create a struct for hero. Your hero has a name, hit points, current position and 
+tile positions they have revealed. 
+
+Create a map.cpp that generates a map (2d array) and makes it available to outside files.
+In addition add functions for getting what's at a current position and displaying the map.
+Display the map with a symbol to represent the hero's current position and display what's
+on the tiles where the here has already passed. 
+
+Create a main.cpp that allows for a play through. 
+
+Create a static variable to keep up with the number of steps taken by your hero.
+
+Prompt your player to move NSEW, but make sure they can’t move off the board. 
+Experiment with board size and trap generation. 
+
+If they reach a trap, end the game with an appropriate message or report the damage taken.
+If they reach the exit, end the game with an appropriate message.  
+
+Use good testing and check to see how often a no-win board is created. 
+Comment and organize your code well.
+Have at least a main.cpp and map.cpp. 
+
+I'll allow this assignment to be done in groups of 1 - 2 people. We'll have a short
+competition to see who makes the "best" game. 
